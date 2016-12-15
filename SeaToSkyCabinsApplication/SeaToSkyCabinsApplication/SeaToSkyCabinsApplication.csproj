@@ -132,7 +132,6 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
-    <Content Include="App_Code\GlyphIcon.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Images\cabin.jpg" />
     <Content Include="Images\cabin2.jpg" />
@@ -176,11 +175,11 @@
     <Content Include="Views\Home\Login.cshtml" />
     <Content Include="Views\Shared\_LayoutAdmin.cshtml" />
     <Content Include="Views\Shared\_LayoutOwner.cshtml" />
-    <Content Include="Views\Home\AdminProfile.cshtml" />
+    <Content Include="Views\Admin\AdminProfile.cshtml" />
     <Content Include="Views\Home\OwnerProfile.cshtml" />
     <Content Include="Views\Home\Signup.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\OwnerSignup.cshtml" />
+    <Content Include="Views\Home\Properties.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -190,7 +189,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Admin\" />
     <Folder Include="Views\Owner\" />
   </ItemGroup>
   <PropertyGroup>

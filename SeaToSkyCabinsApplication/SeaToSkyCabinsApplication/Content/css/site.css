@@ -5,6 +5,13 @@
 .container {
     margin-top: 20px;
 }
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+/* Login Form */
 .panel-login {
 	border-color: #ccc;
 	-webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);

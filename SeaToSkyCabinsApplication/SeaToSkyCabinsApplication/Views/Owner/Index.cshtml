@@ -4,28 +4,93 @@
     Layout = "~/Views/Shared/_LayoutOwner.cshtml";
 }
 
-<h2>Index</h2>
+<h2>Welcome Carlos</h2>
 
 <div class="container">
 
     <div class="panel panel-default">
         <div class="panel-heading">Properties</div>
         <div class="panel-body">
-            New Owner Lists
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Type</th>
+                        <th>Bedrooms</th>
+                        <th>Washrooms</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>cl0125489</td>
+                        <td>Cabin Lot</td>
+                        <td>2 Bedrooms</td>
+                        <td>1 Washrooms</td>
+                        <td>@Html.ActionLink("Details", "#")</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 
     <div class="panel panel-default">
         <div class="panel-heading">Requested Reservations</div>
         <div class="panel-body">
-            New Renter Lists
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Renter Name</th>
+                        <th>Property ID</th>
+                        <th>Property Type</th>
+                        <th>Bedrooms</th>
+                        <th>Washrooms</th>
+                        <th>Status</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Renter Name</td>
+                        <td>Property ID</td>
+                        <td>Property Type</td>
+                        <td>Bedrooms</td>
+                        <td>Washrooms</td>
+                        <td>Not Confirmed Yet</td>
+                        <td>@Html.ActionLink("Details", "#")</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 
     <div class="panel panel-default">
         <div class="panel-heading">Current Reservations</div>
         <div class="panel-body">
-            New Reservations Lists
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Renter Name</th>
+                        <th>Property ID</th>
+                        <th>Property Type</th>
+                        <th>Bedrooms</th>
+                        <th>Washrooms</th>
+                        <th>Status</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 </div>

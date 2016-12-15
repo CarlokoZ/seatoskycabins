@@ -24,6 +24,11 @@ namespace SeaToSkyCabinsApplication.Controllers
             return View();
         }
 
+        public ActionResult SignupOwner()
+        {
+            return View();
+        }
+
         public ActionResult OwnerSignup()
         {
             return View();
@@ -35,13 +40,6 @@ namespace SeaToSkyCabinsApplication.Controllers
         }
 
         public ActionResult Properties()
-        {
-            return View();
-        }
-
-
-
-        public ActionResult OwnerProfile()
         {
             return View();
         }

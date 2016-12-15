@@ -180,6 +180,7 @@
     <Content Include="Views\Home\Signup.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Properties.cshtml" />
+    <Content Include="Views\Home\SignupOwner.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

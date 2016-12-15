@@ -27,9 +27,9 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index")</li>
-                    <li><a href="#">Properties</a></li>
-                    <li>@Html.ActionLink("About Us", "About")</li>
+                    <li><a class="page-scroll" href="#home">@Html.ActionLink("Home", "Index")</a></li>
+                    <li><a class="page-scroll" href="#properties">Properties</a></li>
+                    <li><a class="page-scroll" href="#about">@Html.ActionLink("About Us", "About")</a></li>
                 </ul>
                 <form class="navbar-form navbar-right">
                     <div class="form-group">
@@ -47,11 +47,11 @@
         @RenderBody()
     </div>
 
-    <footer>
+    <footer id="about">
         <div class="panel panel-default">
             <div class="panel-footer">
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-6" >
                         <h3> About Us</h3>
                         <p>
                             Affordable rental cabins located throughout Wistler, B.C. Our Service has been praised by our loyal costumers and over the years we have gained more cotumers. Are properties are increasing in Wistler area.
@@ -65,7 +65,7 @@
                         <p>Phone (Whistler local)1.604.932.3928</p>
                         <p> Office HoursMonday - Friday, 8:30 AM – 5:00 PM PST</p>
                         <ul class="social">
-                            <li> <a href="https://twitter.com/login"> <i class="fa fa-twitter"> &nbsp; </i> </a> </li>
+                            <li> <a href="https://twitter.com/login"> <i class="fa fa-twitter"> </i> </a> </li>
                             <li> <a href="https://google.ca/login"> <i class="fa fa-google-plus"></i> </a> </li>
                             <li> <a href="https://www.facebook.com/"> <i class="fa fa-facebook"></i></a></li>
                             <li> <a href="https://www.youtube.com/"> <i class="fa fa-youtube"> </i> </a> </li>

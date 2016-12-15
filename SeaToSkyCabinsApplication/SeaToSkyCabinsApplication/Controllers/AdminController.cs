@@ -13,7 +13,7 @@ namespace SeaToSkyCabinsApplication.Controllers
         {
             return View();
         }
-        public ActionResult AdminProfile()
+        public ActionResult Profile()
         {
             return View();
         }

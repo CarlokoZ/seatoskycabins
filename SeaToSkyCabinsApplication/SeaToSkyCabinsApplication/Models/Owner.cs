@@ -9,7 +9,7 @@ namespace SeaToSkyCabinsApplication.Models
     {
         public User User { get; set; }
         public int RoleID { get; set; }
-        public int OwnerID { get; set; }
+        public string OwnerID { get; set; }
         public int SIN { get; set; }
         public int DirectDepositRouting { get; set; }
         public int DirectDepositAccount { get; set; }

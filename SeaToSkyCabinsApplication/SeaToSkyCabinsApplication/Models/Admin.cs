@@ -5,13 +5,12 @@ using System.Web;
 
 namespace SeaToSkyCabinsApplication.Models
 {
-    public class Owner
+    public class Admin
     {
         public User User { get; set; }
         public int RoleID { get; set; }
-        public int OwnerID { get; set; }
-        public int SIN { get; set; }
-        public int DirectDepositRouting { get; set; }
-        public int DirectDepositAccount { get; set; }
+        public int AdminID { get; set; }
+        public DateTime HireDate { get; set; }
+        public int OfficePhone { get; set; }
     }
 }

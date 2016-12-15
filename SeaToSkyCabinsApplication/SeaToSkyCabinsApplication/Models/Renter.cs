@@ -7,6 +7,7 @@ namespace SeaToSkyCabinsApplication.Models
 {
     public class Renter
     {
+        public User User { get; set; }
         public int RoleID { get; set; }
         public int RenterID { get; set; }
         public int SecondaryPhone { get; set; }

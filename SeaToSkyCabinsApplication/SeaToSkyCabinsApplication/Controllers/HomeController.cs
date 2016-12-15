@@ -24,17 +24,22 @@ namespace SeaToSkyCabinsApplication.Controllers
             return View();
         }
 
+        public ActionResult SignupOwner()
+        {
+            return View();
+        }
+
+        public ActionResult OwnerSignup()
+        {
+            return View();
+        }
+
         public ActionResult About()
         {
             return View();
         }
 
-        public ActionResult AdminProfile()
-        {
-            return View();
-        }
-
-        public ActionResult OwnerProfile()
+        public ActionResult Properties()
         {
             return View();
         }

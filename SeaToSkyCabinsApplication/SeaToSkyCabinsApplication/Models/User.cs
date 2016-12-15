@@ -17,7 +17,7 @@ namespace SeaToSkyCabinsApplication.Models
         public string City { get; set; }
         public string Province { get; set; }
         public string PostalCode { get; set; }
-        public string email { get; set; }
+        public string Email { get; set; }
         public int PhoneNumber { get; set; }
     }
 }

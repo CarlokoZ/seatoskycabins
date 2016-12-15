@@ -18,6 +18,11 @@ namespace SeaToSkyCabinsApplication.Controllers
             return View();
         }
 
+        public ActionResult Properties()
+        {
+            return View();
+        }
+
         // GET: Admin/Details/5
         public ActionResult Details(int id)
         {

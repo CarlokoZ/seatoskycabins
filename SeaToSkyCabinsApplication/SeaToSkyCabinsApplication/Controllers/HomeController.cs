@@ -18,6 +18,16 @@ namespace SeaToSkyCabinsApplication.Controllers
         {
             return View();
         }
+        
+        public ActionResult Signup()
+        {
+            return View();
+        }
+
+        public ActionResult About()
+        {
+            return View();
+        }
 
         public ActionResult AdminProfile()
         {

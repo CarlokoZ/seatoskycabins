@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewBag.Title = "Properties";
+    Layout = "~/Views/Shared/_LayoutOwner.cshtml";
+}
+
+ <!-- properties Section -->
+<div id="properties">
+    <div class="container">
+        <div class="section-title text-center center">
+            <h2>Properties</h2>
+            <hr>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-4">
+                <div class="clearfix">
+                    <img src="~/Images/cabin.jpg" alt="cabin1" class="pull-left img-responsive">
+                    <table class="table">
+                        <tr>
+                            <th>cabin Lot</th>
+                        </tr>
+                        <tr>
+                            <td>Dimensions</td>
+                            <td>616.21 feet frontage</td>
+                        </tr>
+                        <tr>
+                            <td>Rooms</td>
+                            <td>2 Bedrooms, 1 Bathroom, Sleeps 6</td>
+                        </tr>
+                        <tr>
+                            <td>Price</td>
+                            <td>$5,250/ Week</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    @Html.ActionLink("Back to Index", "Index")
+</div>

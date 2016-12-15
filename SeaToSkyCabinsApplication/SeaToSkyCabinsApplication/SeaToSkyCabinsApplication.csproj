@@ -176,10 +176,11 @@
     <Content Include="Views\Shared\_LayoutAdmin.cshtml" />
     <Content Include="Views\Shared\_LayoutOwner.cshtml" />
     <Content Include="Views\Admin\AdminProfile.cshtml" />
-    <Content Include="Views\Home\OwnerProfile.cshtml" />
+    <Content Include="Views\Owner\OwnerProfile.cshtml" />
     <Content Include="Views\Home\Signup.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Properties.cshtml" />
+    <Content Include="Views\Home\SignupOwner.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -189,7 +190,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Owner\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -181,6 +181,8 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Properties.cshtml" />
     <Content Include="Views\Home\SignupOwner.cshtml" />
+    <Content Include="Views\Admin\Index.cshtml" />
+    <Content Include="Views\Owner\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

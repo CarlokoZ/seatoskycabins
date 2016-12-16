@@ -1,0 +1,122 @@
+﻿@model SeaToSkyCabinsApplication.Models.Owner
+
+@{
+    ViewBag.Title = "OwnerDetails";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<div class="container">
+    <h2>Carlos Details</h2>
+
+    <div>
+        <dl class="dl-horizontal text-overflow">
+            <dt>
+                @Html.DisplayNameFor(model => model.OwnerID)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.OwnerID)carlos
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.User.FirstName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.User.FirstName)Carlos
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.User.LastName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.User.LastName)Kirmay
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.SIN)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.SIN)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.User.BirthDate)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.User.BirthDate)5/25/1970
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.User.Address)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.User.Address) 4000 Gateway Drive
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.User.City)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.User.City) Whistler
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.User.Province)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.User.Province)BC
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.User.PostalCode)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.User.PostalCode)V0N 1B9
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.DirectDepositRouting)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.DirectDepositRouting)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.DirectDepositAccount)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.DirectDepositAccount)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.User.PhoneNumber)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.User.PhoneNumber)16049324579
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.User.Email)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.User.Email)carlos@hotmail.com
+            </dd>
+
+        </dl>
+    </div>
+    <p>
+
+        @Html.ActionLink("Back to Index", "Index")
+    </p>
+</div>

@@ -193,6 +193,8 @@
     <Content Include="Views\Home\PropertyDetails.cshtml" />
     <Content Include="Views\Admin\PropertyDetails.cshtml" />
     <Content Include="Views\Owner\PropertyDetails.cshtml" />
+    <Content Include="Views\Admin\OwnerDetails.cshtml" />
+    <Content Include="Views\Admin\RenterDetails.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

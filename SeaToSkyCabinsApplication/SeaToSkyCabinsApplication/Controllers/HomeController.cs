@@ -43,5 +43,10 @@ namespace SeaToSkyCabinsApplication.Controllers
         {
             return View();
         }
+
+        public ActionResult PropertyDetails()
+        {
+            return View();
+        }
     }
 }

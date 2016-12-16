@@ -1,0 +1,138 @@
+﻿@model SeaToSkyCabinsApplication.Models.Renter
+
+@{
+    ViewBag.Title = "RenterDetails";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="container">
+    <h2>John Details</h2>
+
+    <div>
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.RenterID)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.RenterID)john
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.User.FirstName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.User.FirstName)John
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.User.LastName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.User.LastName)May
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.User.PhoneNumber)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.User.PhoneNumber)16048031597
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.ProfilePicture)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ProfilePicture)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.User.BirthDate)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.User.BirthDate)3/25/1980
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.User.Address)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.User.Address) 1008 Connaught Dr
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.User.City)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.User.City) Vancouver
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.User.Province)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.User.Province)BC
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.User.PostalCode)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.User.PostalCode)V6H 2G8
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.RenterRating)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.RenterRating)N/A
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.PhotoIDNumber)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.PhotoIDNumber)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.ChargeCardNumber)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ChargeCardNumber)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.ChargeCardExpiration)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ChargeCardExpiration)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.ChargeCardCode)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ChargeCardCode)
+            </dd>
+
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Back to Index", "Index")
+    </p>
+</div>

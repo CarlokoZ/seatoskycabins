@@ -185,7 +185,6 @@
     <Content Include="Views\Home\Login.cshtml" />
     <Content Include="Views\Shared\_LayoutAdmin.cshtml" />
     <Content Include="Views\Shared\_LayoutOwner.cshtml" />
-    <Content Include="Views\Home\AdminProfile.cshtml" />
     <Content Include="Views\Home\Signup.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Owner\Index.cshtml" />

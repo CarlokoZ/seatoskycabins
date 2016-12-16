@@ -4,10 +4,9 @@
     ViewBag.Title = "Renter Signup";
     Layout = "~/Views/Shared/_LayoutPage1.cshtml";
 }
-
-<h2 class="signuph2">Renter Signup</h2>
-
 <div class="container">
+    <h2 class="signuph2">Renter Signup</h2>
+
     @using (Html.BeginForm())
     {
         @Html.AntiForgeryToken()
@@ -97,76 +96,78 @@
                     @Html.ValidationMessageFor(model => model.User.PostalCode, "", new { @class = "text-danger" })
                 </div>
             </div>
+
+            <!--ROW 6-->
             <!--EMAIL ADDRESS-->
             <div class="form-group">
                 @Html.LabelFor(model => model.User.Email,"Email", htmlAttributes: new { @class = "control-label col-md-3" })
-                <div class="col-md-6">
+                <div class="col-md-3">
                     @Html.EditorFor(model => model.User.Email, new { htmlAttributes = new { @class = "form-control" } })
                     @Html.ValidationMessageFor(model => model.User.Email, "", new { @class = "text-danger" })
                 </div>
-            </div>
+
             <!--PHONE NUMBER-->
-            <div class="form-group">
-                @Html.LabelFor(model => model.User.PhoneNumber,"Phone Number", htmlAttributes: new { @class = "control-label col-md-3" })
-                <div class="col-md-6">
+
+                @Html.LabelFor(model => model.User.PhoneNumber,"Phone Number", htmlAttributes: new { @class = "control-label col-md-1" })
+                <div class="col-md-2">
                     @Html.EditorFor(model => model.User.PhoneNumber, new { htmlAttributes = new { @class = "form-control" } })
                     @Html.ValidationMessageFor(model => model.User.PhoneNumber, "", new { @class = "text-danger" })
                 </div>
             </div>
+            <!--ROW 7-->
             <!--SECONDARY PHONE NUMBER-->
             <div class="form-group">
                 @Html.LabelFor(model => model.SecondaryPhone, "Secondary Phone Number", htmlAttributes: new { @class = "control-label col-md-3" })
-                <div class="col-md-6">
+                <div class="col-md-3">
                     @Html.EditorFor(model => model.SecondaryPhone, new { htmlAttributes = new { @class = "form-control" } })
                     @Html.ValidationMessageFor(model => model.SecondaryPhone, "", new { @class = "text-danger" })
                 </div>
-            </div>
-            <!--SECONDARY PHONE NUMBER-->
-            <div class="form-group">
-                @Html.LabelFor(model => model.SecondaryPhone, "Secondary Phone Number", htmlAttributes: new { @class = "control-label col-md-3" })
-                <div class="col-md-6">
-                    @Html.EditorFor(model => model.SecondaryPhone, new { htmlAttributes = new { @class = "form-control" } })
-                    @Html.ValidationMessageFor(model => model.SecondaryPhone, "", new { @class = "text-danger" })
-                </div>
-            </div>
+
+
             <!--PROFILE PICTURE-->
-            <div class="form-group">
-                @Html.LabelFor(model => model.ProfilePicture, "Profile Picture", htmlAttributes: new { @class = "control-label col-md-3" })
-                <div class="col-md-6">
+
+                @Html.LabelFor(model => model.ProfilePicture, "Profile Picture", htmlAttributes: new { @class = "control-label col-md-1" })
+                <div class="col-md-1">
                     @Html.EditorFor(model => model.ProfilePicture, new { htmlAttributes = new { @class = "form-control" } })
                     @Html.ValidationMessageFor(model => model.ProfilePicture, "", new { @class = "text-danger" })
                 </div>
-            </div>            
+            </div>    
+            
+            <!--ROW 8-->        
             <!--ID #-->
             <div class="form-group">
                 @Html.LabelFor(model => model.PhotoIDNumber, "ID/DL Number", htmlAttributes: new { @class = "control-label col-md-3" })
-                <div class="col-md-6">
+                <div class="col-md-4">
                     @Html.EditorFor(model => model.PhotoIDNumber, new { htmlAttributes = new { @class = "form-control" } })
                     @Html.ValidationMessageFor(model => model.PhotoIDNumber, "", new { @class = "text-danger" })
                 </div>
             </div>
+
+            <!--ROW 9-->
             <!-- - - - - - - - - - - - - - - - - - - - - - - - - - CHARGE CARD INFORMATION - - - - - - - - - - - - - - - - - - - - - - - - - -->
             <div class="form-group">
                 @Html.LabelFor(model => model.ChargeCardNumber, "Credit/Debit Card Number", htmlAttributes: new { @class = "control-label col-md-3" })
-                <div class="col-md-6">
+                <div class="col-md-5">
                     @Html.EditorFor(model => model.ChargeCardNumber, new { htmlAttributes = new { @class = "form-control" } })
                     @Html.ValidationMessageFor(model => model.ChargeCardNumber, "", new { @class = "text-danger" })
                 </div>
             </div>
+
+            <!--ROW 10-->
             <div class="form-group">
                 @Html.LabelFor(model => model.ChargeCardExpiration, "Card Expiration", htmlAttributes: new { @class = "control-label col-md-3" })
-                <div class="col-md-6">
+                <div class="col-md-2">
                     @Html.EditorFor(model => model.ChargeCardExpiration, new { htmlAttributes = new { @class = "form-control" } })
                     @Html.ValidationMessageFor(model => model.ChargeCardExpiration, "", new { @class = "text-danger" })
                 </div>
-            </div>
-            <div class="form-group">
-                @Html.LabelFor(model => model.ChargeCardCode, "CVV", htmlAttributes: new { @class = "control-label col-md-3" })
-                <div class="col-md-6">
+
+                @Html.LabelFor(model => model.ChargeCardCode, "CVV", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-1">
                     @Html.EditorFor(model => model.ChargeCardCode, new { htmlAttributes = new { @class = "form-control" } })
                     @Html.ValidationMessageFor(model => model.ChargeCardCode, "", new { @class = "text-danger" })
                 </div>
             </div>
+
             <div class="form-group">
                 <div class="col-md-offset-3 col-md-6">
                     <input type="submit" value="Create account" class="btn btn-default" />

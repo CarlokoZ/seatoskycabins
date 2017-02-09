@@ -9,7 +9,7 @@ namespace SeaToSkyCabinsApplication.Models
     public class User
     {
         [Display(Name ="USER ID")]
-        public string UserID { get; set; }
+        public int UserID { get; set; }
         [Display(Name = "ROLE ID")]
         public int RoleID { get; set; }
         [Display(Name = "PASSWORD")]
@@ -32,5 +32,10 @@ namespace SeaToSkyCabinsApplication.Models
         public string Email { get; set; }
         [Display(Name = "PHONE NUMBER")]
         public int PhoneNumber { get; set; }
+
+        public virtual ICollection<Owner> Owners { get; set; }
+        public virtual Admin Admin { get; set; }
+        public virtual ICollection<Renter> Renters { get; set; }
+        public virtual ICollection<Role> Roles { get; set; }
     }
 }

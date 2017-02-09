@@ -38,8 +38,23 @@ namespace SeaToSkyCabinsApplication.Controllers
         {
             return View();
         }
-
+        //Property One
         public ActionResult PropertyDetails()
+        {
+            return View();
+        }
+        //Property Two
+        public ActionResult AlpineMeadows()
+        {
+            return View();
+        }
+        //Property Three
+        public ActionResult Blackcomb()
+        {
+            return View();
+        }
+
+        public ActionResult WhistlerCreek()
         {
             return View();
         }

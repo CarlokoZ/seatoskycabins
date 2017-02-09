@@ -8,16 +8,21 @@ namespace SeaToSkyCabinsApplication.Models
 {
     public class Owner
     {
-        public User User { get; set; }
-        [Display(Name = "ROLE ID")]
-        public int RoleID { get; set; }
         [Display(Name = "OWNER ID")]
         public string OwnerID { get; set; }
+
+        [Display(Name = "User ID")]
+        public int UserID { get; set; }
+
         [Display(Name = "SIN")]
         public int SIN { get; set; }
+
         [Display(Name = "DIRECT DEPOSIT ROUTING")]
         public int DirectDepositRouting { get; set; }
+
         [Display(Name = "DIRECT DEPOSIT ACCOUNT")]
         public int DirectDepositAccount { get; set; }
+
+        public virtual User User { get; set; }
     }
 }

@@ -123,6 +123,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\css\custom.css" />
     <Content Include="Content\css\site.css" />
+    <Content Include="Content\Site.css" />
     <Content Include="Content\theme.css" />
     <Content Include="Content\theme.min.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -160,6 +161,7 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -201,6 +203,10 @@
     <Content Include="Views\Owner\PropertyDetails.cshtml" />
     <Content Include="Views\Admin\OwnerDetails.cshtml" />
     <Content Include="Views\Admin\RenterDetails.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\Blackcomb.cshtml" />
+    <Content Include="Views\Home\WhistlerCreek.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
